@@ -49,6 +49,10 @@ public class RobotContainer {
     // The 'A Button' zeros the gyroscope
     new Button(m_controller::getAButton).whenPressed(m_drivetrainSubsystem::zeroGyroscope);
 
+    // The 'B Button' prints NavX angle on standard out
+    // Why? ...a quick way to display the NavX angle calculated in the DriveTrainSubsystem.
+    new Button(m_controller::getBButton).whileHeld(m_drivetrainSubsystem::displayNavXAngle);
+
   }
 
   /**
