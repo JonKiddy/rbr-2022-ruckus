@@ -86,7 +86,7 @@ public class DrivetrainSubsystem extends SubsystemBase {
 
     // Front Left Swerve Module
     m_frontLeftModule = Mk4iSwerveModuleHelper.createNeo(
-        tab.getLayout("Back Left Module", BuiltInLayouts.kList).withSize(2, 4).withPosition(0, 0),
+        tab.getLayout("Front Left Module", BuiltInLayouts.kList).withSize(2, 4).withPosition(0, 0),
         Mk4iSwerveModuleHelper.GearRatio.L2,
         FRONT_LEFT_MODULE_DRIVE_MOTOR,
         FRONT_LEFT_MODULE_STEER_MOTOR,
@@ -95,7 +95,7 @@ public class DrivetrainSubsystem extends SubsystemBase {
 
     // Front Right Swerve Module
     m_frontRightModule = Mk4iSwerveModuleHelper.createNeo(
-        tab.getLayout("Back Left Module", BuiltInLayouts.kList).withSize(2, 4).withPosition(2, 0),
+        tab.getLayout("Front Right Module", BuiltInLayouts.kList).withSize(2, 4).withPosition(2, 0),
         Mk4iSwerveModuleHelper.GearRatio.L2,
         FRONT_RIGHT_MODULE_DRIVE_MOTOR,
         FRONT_RIGHT_MODULE_STEER_MOTOR,
@@ -113,7 +113,7 @@ public class DrivetrainSubsystem extends SubsystemBase {
 
     // Back Right Swerve Module
     m_backRightModule = Mk4iSwerveModuleHelper.createNeo(
-        tab.getLayout("Back Left Module", BuiltInLayouts.kList).withSize(2, 4).withPosition(6, 0),
+        tab.getLayout("Back Right Module", BuiltInLayouts.kList).withSize(2, 4).withPosition(6, 0),
         Mk4iSwerveModuleHelper.GearRatio.L2,
         BACK_RIGHT_MODULE_DRIVE_MOTOR,
         BACK_RIGHT_MODULE_STEER_MOTOR,

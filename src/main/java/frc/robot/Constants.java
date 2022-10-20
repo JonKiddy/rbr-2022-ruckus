@@ -18,6 +18,9 @@ public final class Constants {
     // The front-to-back distance between the drivetrain wheels.
     public static final double DRIVETRAIN_WHEELBASE_METERS = 0.4699;
 
+    // Find the Offset values. Follow the SDS configuration guidelines at:
+    // https://github.com/SwerveDriveSpecialties/swerve-template
+
     public static final int FRONT_LEFT_MODULE_DRIVE_MOTOR = 5;
     public static final int FRONT_LEFT_MODULE_STEER_MOTOR = 6;
     public static final int FRONT_LEFT_MODULE_STEER_ENCODER = 32;
